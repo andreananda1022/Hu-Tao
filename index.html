@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kode+Mono&family=Noto+Serif+JP:wght@700&display=swap"
+    rel="stylesheet">
+  <link rel="icon" type="image/x-icon" href="icon.ico">
+  <link rel="stylesheet" href="style.css">
+  <title>Hu-Tao Homepage</title>
+</head>
+
+<body>
+  <main class="w-screen h-screen bg-cover bg-no-repeat bg-fixed p-6">
+    <header class="text-maroon w-full text-8xl font-noto-serif-jp flex gap-6 flex-col sm:flex-row sm:justify-between">
+      <div>
+        <h2>胡</h2>
+        <h2 class="mt-6">桃</h2>
+      </div>
+      <section class="w-full sm:w-max h-max text-maroon sm:text-8xl font-kode-mono font-light flex sm:items-center flex-col gap-2">
+        <div class="flex items-center gap-2 text-6xl sm:text-8xl">
+          <span id="hours">00</span>
+          <span class="animate-pulse -translate-y-1">:</span>
+          <span id="minutes">00</span>
+          <div class="flex flex-col items-center ml-2 text-base">
+            <span id="periode" class="-translate-y-2">PM/AM</span>
+            <span id="seconds" class="translate-y-2">00</span>
+          </div>
+        </div>
+        <div class="text-2xl sm:text-3xl text-center">
+          <span id="day">day,</span>
+          <span id="date">00</span>
+          <span id="month">month</span>
+          <span id="year">0000</span>
+        </div>
+      </section>
+    </header>
+  </main>
+
+  <script src="index.js"></script>
+</body>
+
+</html>
